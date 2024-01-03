@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Kameron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <header id="home" class="main-header">
+      <div class="layers">
+        <div class="layer__header">
+          <svg class="icon-logo-header">
+                <use href="../img/icons.svg#icon-logo"></use>
+              </svg>
+          <div class="main-header-text layers__caption">
+            CVenture</div>
+          <button class="cta-main" type="button">book now</button>
+        </div>
+        <div
+          class="layer layer__base"
+          style="background-image: url(../img/bg.png)"
+        ></div>
+        <div
+          class="layer layer__3"
+          style="background-image: url(../img/layer-3)"
+        ></div>
+        <div
+          class="layer layer__middle"
+          style="background-image: url(../img/layer-middle.png)"
+        ></div>
+        <div
+          class="layer layer__front"
+          style="background-image: url(../img/layer-front.png)"
+        ></div>
+      </div>
+    </header>
+    <main>
+      <section class="info__section">
+        <div class="container">
+          <div class="info__text-container">
+            <h2 class="info__header">CVenture</h2>
+            <p class="info__text">
+              Welcome to CVenture - The Ultimate Camping Experience Provider!
+              Unforgettable Adventures Await You in Nature's Wonderland Escape
+              the hustle and bustle of city life and immerse yourself in the
+              serene beauty of Mother Nature with us!
+            </p>
+          </div>
+          <div class="info__img-container">
+            <picture>
+              <source
+                srcset="../img/dog@1x.webp 1x, ../img/dog@2x.webp 2x"
+                type="image/webp"
+              />
+              <source
+                srcset="../img/dog@1x.jpg 1x, ../img/dog@2x.jpg 2x"
+                type="image/jpeg"
+              />
+              <img
+                class="info__left-img"
+                src=".../img/dog@1x.jpg"
+                alt="Dog with thent"
+              />
+            </picture>
+            <picture>
+              <source
+                srcset="../img/tent@1x.webp 1x, ../img/tent@2x.webp 2x"
+                type="image/webp"
+              />
+              <source
+                srcset="../img/tent@1x.jpg 1x, ../img/tent@2x.jpg 2x"
+                type="image/jpeg"
+              />
+              <img
+                class="info__right-img"
+                src="../img/tent@1x.jpg"
+                alt="Tent in the mountains"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="facts__section">
+        <div class="container">
+          <ul class="facts__list">
+            <li>
+              <svg>
+                <use href="../img/icons.svg#icon-experience"></use>
+              </svg>
+              <p>Experience</p>
+            </li>
+            <li>
+              <svg class="icon-map">
+                <use href="../img/icons.svg#icon-map"></use>
+              </svg>
+              <p>Locations</p>
+            </li>
+            <li>
+              <svg>
+                <use href="../img/icons.svg#icon-guides"></use>
+              </svg>
+              <p>Guides</p>
+            </li>
+            <li>
+              <svg>
+                <use href="../img/icons.svg#icon-equipment"></use>
+              </svg>
+              <p>Equipment</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pricing__section">
+        <div class="container">
+          <h3 class="header-section">Pricing</h3>
+          <ul class="pricing__card-list">
+            <li class="pricing__card">
+              <h4 class="pricing__title">Family Adventure</h4>
+              <div class="pricing__content-container">
+                <p class="pricing__information">
+                  Embark on the bonding experience with this plan. Immerse
+                  yourselves in the nature while enjoying comfortable amenities
+                  that cater to all ages.
+                </p>
+                <p class="pricing__cost">400$</p>
+              </div>
+            </li>
+            <li class="pricing__card friends">
+                <h4 class="pricing__title">Friends Getaway</h4>
+              <div class="pricing__content-container">
+              
+                <p class="pricing__information">
+                  Whether you're seeking thrilling activities or simply relaxing
+                  by the campfire, this plan is designed for shared adventures
+                  and camaraderie.
+                </p>
+                <p class="pricing__cost">600$</p>
+              </div>
+            </li>
+            <li class="pricing__card solo">
+              <h4 class="pricing__title">Solo Explorer's Retreat</h4>
+              <div class="pricing__content-container">
+              
+                <p class="pricing__information">
+                  Connect with the wilderness on your terms, finding serenity in
+                  solo hikes, quiet moments by the campfire, and the freedom to
+                  explore at your own pace.
+                </p>
+                <p class="pricing__cost">400$</p>
+                <p class="pricing__old-cost">500$</p>
+              </div>
+              <div class="pricing__sale">- 20%</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="video__section">
+        <div class="video__main-container">
+          <div class="video__container">
+            <video class="videor" autoplay muted loop id="video">
+              <source src="./img/video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video__content-container">
+            <p class="header-section video__header">Maket it happen now!</p>
+            <p class="video__text">
+              Welcome to CVenture - The Ultimate Camping Experience Provider!
+              Unforgettable Adventures Await You in Nature's Wonderland Escape
+              the hustle and
+            </p>
+            <button class="video__btn" type="button">buy</button>
+          </div>
+        </div>
+      </section>
+      <section class="reviews__section">
+        <div class="container">
+          <h3 class="header-section">Reviews</h3>
+          <ul class="reviews__card-list">
+            <li class="reviews__card">
+              <div class="reviews__content-top-container">
+                <picture>
+                  <source
+                    srcset="../img/howard@1x.webp 1x, ../img/howard@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../img/howard@1x.jpg 1x, ../img/howard@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="reviews__img"
+                    src=".../img/howard@1x.jpg"
+                    alt="Man's avatar"
+                  />
+                </picture>
+                <div class="reviews__content-container">
+                  <p class="reviews__name">Esther Howard</p>
+                  <ul class="reviews__star-list">
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p class="reviews__text">
+                "My family and I recently had the pleasure of camping with
+                CVenture, and I must say, the experience exceeded our
+                expectations. The campsites were nothing short of breathtaking,
+                surrounded by nature's beauty. The balance between modern
+                amenities and the serenity of the outdoors was perfect. We felt
+                completely secure, thanks to the attentive on-site staff and
+                well-marked trails. It was a tranquil escape that left us with
+                unforgettable memories. We can't wait to return!"
+              </p>
+            </li>
+            <li class="reviews__card">
+              <div class="reviews__content-top-container">
+                <picture>
+                  <source
+                    srcset="../img/wilson@1x.webp 1x, ../img/wilson@2x.webp 2x"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../img/wilson@1x.jpg 1x, ../img/wilson@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="reviews__img"
+                    src=".../img/wilson@1x.jpg"
+                    alt="Woman's avatar"
+                  />
+                </picture>
+                <div class="reviews__content-container">
+                  <p class="reviews__name">Jenny Wilson</p>
+                  <ul class="reviews__star-list">
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star-stroked">
+                        <use href="./img/icons.svg#icon-star"></use>
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p class="reviews__text">
+                "As avid campers, we were drawn to CVenture for its promise of a
+                unique and innovative camping experience. And boy, did it
+                deliver! From electronic locks on our cozy tents to cutting-edge
+                eco-friendly amenities, every detail was carefully thought out.
+                The activities catered to all interests, ensuring our days were
+                filled with adventure. We felt a genuine sense of security and
+                comfort throughout our stay. Kudos to the CVenture team for
+                redefining camping for the modern adventurer!"
+              </p>
+            </li>
+            <li class="reviews__card">
+              <div class="reviews__content-top-container">
+                <picture>
+                  <source
+                    srcset="
+                      ../img/kristin@1x.webp 1x,
+                      ../img/kristin@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="../img/kristin@1x.jpg 1x, ../img/kristin@2x.jpg 2x"
+                    type="image/jpeg"
+                  />
+                  <img
+                    class="reviews__img"
+                    src=".../img/kristin@1x.jpg"
+                    alt="Woman's avatar"
+                  />
+                </picture>
+                <div class="reviews__content-container">
+                  <p class="reviews__name">Kristin Watson</p>
+                  <ul class="reviews__star-list">
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                    <li class="reviews__star-item">
+                      <svg class="reviews__star">
+                        <use href="./img/icons.svg#icon-star-default"></use>
+                      </svg>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <p class="reviews__text">
+                "Our family had an incredible time camping with CVenture. The
+                website promised a secure and family-friendly environment, and
+                they delivered in every aspect. The warmth of the staff, the
+                well-maintained facilities, and the emphasis on safety made us
+                feel completely at ease. We appreciated the transparency in
+                pricing and the hassle-free booking process. Our kids had a
+                blast with the activities, and we left with cherished memories.
+                CVenture has earned our trust, and we're already planning our
+                next adventure!"
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="faq__section">
+        <div class="container">
+          <h3 class="header-section">FAQ</h3>
+          <ul class="faq__list">
+            <li class="faq__item">
+              <p class="faq__question">
+                How do I book a camping adventure?
+              </p>
+              <p class="faq__answer">Booking your adventure is simple! Navigate to the "Prices" section on our website and follow the easy steps provided. If you encounter any issues, our friendly customer support team is ready to assist.</p></li>
+            <li class="faq__item">
+              <p class="faq__question">
+                What should I bring for my camping trip?
+              </p>
+               <p class="faq__answer">Pack the essentials for a successful camping experience: clothing (weather-appropriate layers, waterproof gear, boots), ID, backpack, and your smile. Everything else we have! Tailor items based on location and weather. Contact us for any specific queries.</p></li>
+          
+            </li>
+            <li class="faq__item">
+              <p class="faq__question">
+                 Are pets allowed at your campsites?
+              </p>
+               <p class="faq__answer">Yes, we welcome furry companions at our campsites! We understand that pets are a part of your family and can enhance the outdoor experience. However, we kindly ask you to adhere to the following guidelines: leash policy, clean-up responsibility, and respect for quiet hours.</p></li>
+          
+            </li>
+            <li class="faq__item">
+              <p class="faq__question">
+                 How are safety and security ensured at your campsites?
+              </p>
+               <p class="faq__answer">Your safety is our top priority, and we have implemented various measures to ensure a secure camping experience: site monitoring, well-defined campground boundaries, emergency protocols, well-maintained facilities, lighting, educational resources, collaboration with local authorities, visitor guidelines.</p></li>
+          
+            </li>
+          </ul>
+        </div>
+      </section>
+      <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__left-container">
+         <a href="#home" class="footer__logo-container">
+           <svg class="footer__logo">
+          <use href="./img/icons.svg#icon-logo"></use>
+        </svg>
+        <p class="footer__name">CVenture</p>
+         </a>
+        <ul>
+          <li> phone:
+            <a class="contact" href="tel:6788774432"
+                >678-877-4432</a
+              >
+          </li>
+          <li> email:
+            <a class="contact" href="mailto:info@cventure.com"
+                >info@cventure.com</a
+              >
+          </li>
+        </ul>
+        </div>
+        <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li><a href="">home</a></li>
+              <li><a href="">about</a></li>
+              <li><a href="">prices</a></li>
+              <li><a href="">reviews</a></li>
+              <li><a href="">faq</a></li>
+              <li><a href="">contacts</a></li>
+            </ul>
+          </nav>
+
+        
+        </div>
+        </div>
+      </footer>
+        
+    </main>
+    <div class="copy"></div>
+  </body>
+</html>
